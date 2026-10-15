@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/lemon.css" rel="stylesheet" type="text/css">
+  <script src="js/sips.js"></script>
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+
+  <form>
+    <label for="number1">Enter number</label>
+    <input id="number1" name="number1" type="number">
+    <label for="number2">Enter number</label>
+    <input id="number2" name="number2" type="number">
+    <label for="addition">add</label>
+    <input type="radio" id="addition" name="math" value="adding">
+    <label for="subtraction">subtract</label>
+    <input type="radio" id="subtraction" name="math" value="subtracting">
+    <label for="multiplication">multiply</label>
+    <input type="radio" id="multiplication" name="math" value="multiplying">
+    <label for="division">divide</label>
+    <input type="radio" id="division" name="math" value="dividing">
+    <button type="submit">Equal</button>
+  </form>
+  <br />
+  <button type="button" class="hidden" id="reset">Clear</button>
+
+  <div id="results" class="hidden">
+    <h1>Results</h1>
+    <p><span id="equation">_____</span></p>
+  </div>
+</body>  
+</html>
