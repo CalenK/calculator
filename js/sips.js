@@ -16,6 +16,7 @@ function divide(number1, number2) {
 
 window.addEventListener("load", function() {
   const form = document.querySelector("form");
+  let resetBtn = document.querySelector("button#reset");
   form.addEventListener("submit", function(event) {
     event.preventDefault();
     const number1 = parseInt(document.querySelector("input#number1").value);
